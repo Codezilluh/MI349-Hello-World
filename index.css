@@ -1,0 +1,103 @@
+:root {
+	--border-color: #424242;
+	--border-raddius: 20px;
+	--box-background: #e9eaec;
+	--logo-size: 40px;
+	--padding: 32px;
+}
+
+body {
+	margin: 0;
+	font-family: "Helvetica", sans-serif;
+	border-top: 15px solid var(--border-color);
+	background: white;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+p {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+
+div.title-area {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+div.title-area h1 {
+	color: var(--border-color);
+	font-size: 56px;
+}
+
+img.logo {
+	width: var(--logo-size);
+	height: var(--logo-size);
+}
+
+div.computer-image {
+	height: 227px;
+	background-image: url(./images/computer.png);
+	background-position: center bottom;
+	border-radius: var(--border-raddius);
+}
+
+div.inner {
+	max-width: 800px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	gap: var(--padding);
+}
+
+div.container {
+	display: flex;
+	gap: var(--padding);
+}
+
+div.container section {
+	flex: 1;
+	background: var(--box-background);
+	border-radius: var(--border-raddius);
+	padding-top: var(--padding);
+	overflow: hidden;
+}
+
+div.container section h2 {
+	margin-bottom: var(--padding);
+	padding: 0 var(--padding);
+	font-size: 32px;
+}
+
+div.container section p,
+div.container section code {
+	font-size: 18px;
+	padding: 0 var(--padding);
+	line-height: 1.4;
+}
+
+div.container section p {
+	padding-bottom: 15px;
+}
+
+div.container section code {
+	padding-top: 15px;
+	background: var(--border-color);
+	width: 100%;
+	height: 100%;
+	color: white;
+	display: block;
+}
+
+div.container section :last-child {
+	padding-bottom: var(--padding);
+}
