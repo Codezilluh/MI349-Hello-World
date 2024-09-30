@@ -96,6 +96,8 @@ div.container section code {
 	height: 100%;
 	color: white;
 	display: block;
+	white-space: pre-line;
+	font-family: "Courier", "Courier New", monospace;
 }
 
 div.container section :last-child {
