@@ -14,6 +14,7 @@ body {
 	display: flex;
 	justify-content: center;
 	height: 100vh;
+	padding: var(--padding);
 }
 
 * {
@@ -102,4 +103,14 @@ div.container section code {
 
 div.container section :last-child {
 	padding-bottom: var(--padding);
+}
+
+@media screen and (max-width: 650px) {
+	div.container {
+		flex-direction: column;
+	}
+
+	div.title-area {
+		justify-content: center;
+	}
 }
