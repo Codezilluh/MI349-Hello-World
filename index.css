@@ -74,7 +74,7 @@ div.container section {
 }
 
 div.container section h2 {
-	margin-bottom: var(--padding);
+	margin-bottom: 20px;
 	padding: 0 var(--padding);
 	font-size: 32px;
 }
