@@ -111,6 +111,18 @@ div.container section :last-child {
 	padding-bottom: var(--padding);
 }
 
+blue {
+	color: #98baf0;
+}
+
+lblue {
+	color: #bacdea;
+}
+
+green {
+	color: #83dda6;
+}
+
 @media screen and (max-width: 650px) {
 	div.container {
 		flex-direction: column;
